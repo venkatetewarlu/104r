@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>General Bus Pass Application</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" width="80" height="80">
+
+        <h1> TELANGANA STATE ROAD TRANSPORT CORPORATION </h1>
+
+        <h2> GENERAL BUS PASS APPLICATION </h2>
+    </header>
+
+    <form>
+
+        <fieldset>
+            <legend>Applicant Details</legend>
+
+            <p>
+                Name *
+                <input type="text" name="name">
+
+                Father's / Guardian's Name *
+                <input type="text" name="father">
+            </p>
+
+            <p>
+                Date of birth *
+                <input type="date" name="dob">
+
+                Gender *
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Male
+            </p>
+
+            <p>
+                Age As on:
+                <input type="number" name="years" placeholder="Year(s)">
+                <input type="number" name="months" placeholder="Month(s)">
+                <input type="number" name="days" placeholder="Day(s)">
+
+                AAdhar No:
+                <input type="text" name="aadhar">
+            </p>
+
+            <p>
+                Mobile No *
+                <input type="tel" name="mobile">
+
+                E-mail Id *
+                <input type="email" name="email">
+            </p>
+
+            <p>
+                Photo *
+                <input type="file" name="photo">
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Residential Address Details</legend>
+
+            <p>
+                Applicant's Address *
+                <br>
+                <textarea name="address" rows="6" cols="40"></textarea>
+            </p>
+
+            <p>
+                District *
+                <select name="district">
+                    <option>HYDERABAD</option>
+                    <option>RANGAREDDY</option>
+                    <option>MEDCHAL</option>
+                    <option>WARANGAL</option>
+                </select>
+            </p>
+
+            <p>
+                Mandal *
+                <select name="mandal">
+                    <option>HYDERABAD</option>
+                    <option>KUKATPALLY</option>
+                    <option>SECUNDERABAD</option>
+                </select>
+            </p>
+
+            <p>
+                Village *
+                <select name="village">
+                    <option>HYDERABAD</option>
+                    <option>KUKATPALLY</option>
+                    <option>MIYAPUR</option>
+                    <option>GACHIBOWLI</option>
+                </select>
+            </p>
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
